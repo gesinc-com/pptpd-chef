@@ -1,0 +1,16 @@
+DEPENDENCIES
+  pptpd
+    path: .
+
+GRAPH
+  iptables (0.13.2)
+  ohai (2.0.1)
+  pptpd (0.0.1)
+    iptables (>= 0.0.0)
+    sysctl (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  sysctl (0.6.0)
+    ohai (>= 0.0.0)
+  yum (3.2.2)
+  yum-epel (0.4.0)
+    yum (~> 3.0)

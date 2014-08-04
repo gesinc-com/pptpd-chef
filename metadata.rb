@@ -1,0 +1,5 @@
+name 'pptpd'
+version '0.0.1'
+depends 'yum-epel'
+depends 'iptables'
+depends 'sysctl'

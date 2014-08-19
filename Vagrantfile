@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box = 'centos'
   config.vm.box_url = 'http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.5-x86_64-v20140504.box'
-  config.vm.network :private_network, :ip => '192.168.0.5'
+  config.vm.network :private_network, :ip => '192.168.11.34'
 
   config.berkshelf.enabled = true
   config.omnibus.chef_version = :latest
